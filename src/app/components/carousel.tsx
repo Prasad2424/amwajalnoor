@@ -17,7 +17,7 @@ const HomeCarousel = ({ onReadMoreClick }: HomeCarouselProps) => {
 
   return (
     <div className='homeCarousel w-full h-[300px] xl:h-[620px] lg:h-[620px] md:h-[500px] sm:h-[420px] text-white flex items-center justify-center relative'>
-      <div className='w-full h-full  flex items-center justify-center'>
+    <div className='w-full h-full  flex items-center justify-center'>
         <div className='w-2/3 h-[90%] flex items-center justify-center'>
           <Image src={"/images/client-background.png"} alt="logo" fill className='object-fill' />
         </div>
@@ -26,12 +26,9 @@ const HomeCarousel = ({ onReadMoreClick }: HomeCarouselProps) => {
             <div className=' w-1/3  h-[90%] xl:w-3/4 xl:h-[90%] lg:w-1/2 lg:h-[90%] md:w-3/4 md:h-[90%]'>
               <Image src={"/images/companyLogo3.png"} alt="logo" fill className='object-contain xl:object-cover lg:object-cover md:object-contain sm:object-contain' />
             </div>
+
+            
           </div>
-          {/* <div className=" w-[65%] h-full absolute  top-2 right-0">
-            <div className='w-[55%] h-full '>
-              <Image src={"/images/.png"} alt="logo" fill className='object-contain' />
-            </div>
-          </div> */}
         </div>
       </div>
     </div>

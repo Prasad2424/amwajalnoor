@@ -15,7 +15,7 @@ header{
   z-index: 200 !important;
 }
 
-.navbar{
+header nav{
   z-index: 999 !important;
 }
 
@@ -414,6 +414,13 @@ header{
     padding-left: 30px;
     width: 100%;
     text-align: left;
+  }
+  header nav{
+    position: absolute;
+    z-index: 999 !important;
+  }
+  .homeCarousel{
+    z-index: 100 !important;
   }
   .width100{
     width: 100%;

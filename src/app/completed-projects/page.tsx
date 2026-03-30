@@ -20,8 +20,6 @@ const CompleteProjects: React.FC = () => {
   return (
     <section className="min-h-screen bg-gradient-to-br from-orange-900 via-orange-800 to-red text-white px-4 sm:px-8 lg:px-14 py-12">
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-
-                {/* LEFT – STATS PANEL */}
                 <aside className="lg:col-span-1 bg-gray-800/60 backdrop-blur rounded-2xl p-6 sticky top-6 h-fit">
                     <h2 className="text-xl font-semibold mb-6">Project Overview</h2>
 
@@ -41,15 +39,12 @@ const CompleteProjects: React.FC = () => {
                         </div>
                     </div>
                 </aside>
-
-                {/* RIGHT – PROJECT BOARD */}
                 <div className="lg:col-span-3 space-y-6">
                     {completedProjects.map((group, index) => (
                         <div
                             key={index}
                             className="bg-gray-800/60 backdrop-blur rounded-2xl overflow-hidden"
                         >
-                            {/* COMPANY HEADER */}
                             <button 
                                 onClick={() =>
                                     setActiveCompany(

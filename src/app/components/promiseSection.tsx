@@ -19,14 +19,14 @@ const PromiseSection = () => {
   return (
     <section
       id="promise-section"
-      className="w-full flex flex-col items-center justify-center  bg-cover bg-center "
+      className="w-full flex flex-col items-center justify-center  bg-cover bg-center py-10"
     >
       <div className="w-full h-full ">
       <h1
         data-aos="zoom-in"
         className=" text-xl sm:text-2xl xl:text-4xl  lg:text-3xl md:text-[3xl]  font-bold text-center text-black pb-12"
       >
-        Our Promise
+        Our <span className="font-semibold italic bg-gradient-to-r from-orange-400 via-yellow-400 to-red-500 bg-clip-text text-transparent">Promises </span> mean your trust
       </h1>
       </div>
 
