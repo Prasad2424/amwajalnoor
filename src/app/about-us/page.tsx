@@ -135,7 +135,7 @@ const AboutUs = () => {
       </h2>
 
       <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed">
-        ANWAJ AL NOOR operates with a clear philosophy rooted in quality,
+        AMWAJ AL NOOR operates with a clear philosophy rooted in quality,
         accountability, and professional integrity. We believe that every
         successful project begins with trust and is sustained through
         consistent performance.

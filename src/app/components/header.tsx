@@ -65,8 +65,8 @@ const Header: React.FC = () => {
   
 
   return (
-    <header className="w-full h-[120px] xl:h-[90px] lg:h-[90px] md:h-[90px] sm:h-[90px]  flex justify-between items-center bg-transparent static left-0 top-0 z-50 text-white ">
-      <div className="w-[80%] xl:w-[35%] lg:w-[40%] md:w-[35%] sm:w-[32%] h-[90%] flex items-center justify-start  z-100 ">
+    <header className="w-full h-[120px] xl:h-[90px] lg:h-[90px] md:h-[90px] sm:h-[90px]  flex justify-between items-center bg-transparent static left-0 top-0  text-white z-50">
+      <div className="w-[80%] xl:w-[35%] lg:w-[40%] md:w-[35%] sm:w-[32%] h-[90%] flex items-center justify-start ">
         <div className="w-[40%] h-full xl:w-[35%] lg:w-[30%] md:w-[30%] sm:w-[30%]  slide-right">
           <Link href="/" className="w-full h-[100%]  flex items-center justify-center mt-2 lg:ml-2 md:ml-1 md:mt-0 sm:ml-1 ">
             <div className="relative w-full h-full xl:w-[90%] xl:h-full lg:w-[100%] lg:h-full md:w-[100%] md:h-[60%] sm:w-full sm:h-[50%]">
@@ -144,7 +144,7 @@ const Header: React.FC = () => {
                   className={viewProjects ? "bx bx-chevron-up" : "bx bx-chevron-down"}
                 ></i>
                 {viewProjects && (
-                  <div className="w-max absolute top-8 flex flex-col bg-gray-800 rounded p-2 shadow-md space-y-2 text-gray-200 left-0 text-[10px]">
+                  <div className="w-max absolute top-8 flex flex-col bg-gray-800 rounded p-2 shadow-md space-y-2 text-gray-200 left-0 text-[10px] z-100">
                     <Link href="/ongoing-projects" onClick={closeNavOnClick} >ONGOING PROJECTS</Link>
                     <Link href="/completed-projects" onClick={closeNavOnClick}>COMPLETED PROJECTS</Link>
                   </div>
@@ -159,6 +159,14 @@ const Header: React.FC = () => {
                 }`}
             >
               <Link href="/services" className="hover:underline hover:underline-offset-[12px] hover:text-orange-400" onClick={closeNavOnClick}>SERVICES</Link>
+            </li>
+            <li
+              className={`h-full flex justify-center items-center  ${pathname === "/groups"
+                  ? "text-orange-300 underline underline-offset-[12px]"
+                  : ""
+                }`}
+            >
+              <Link href="/groups" className="hover:underline hover:underline-offset-[12px] hover:text-orange-400" onClick={closeNavOnClick}>OUR GROUPS</Link>
             </li>
 
             <li
@@ -184,11 +192,15 @@ const Header: React.FC = () => {
                   </div>
                 )}
               </div>
+             </li>
+              <li
+              className={`h-full flex justify-center items-center  ${pathname === "/contact-us"
+                  ? "text-orange-300 underline underline-offset-[12px]"
+                  : ""
+                }`}
+            >
+              <Link href="/contact-us" className="hover:underline hover:underline-offset-[12px] hover:text-orange-400" onClick={closeNavOnClick}>CONTACT US</Link>
             </li>
-
-            <button className="w-[150px] xl:w-[160px] lg:w-[160px] md:w-[120px] sm:w-[110px] p-2 px-6 rounded-2xl flex justify-center items-center">
-              <Link href="/contact-us" onClick={closeNavOnClick}>CONTACT US</Link>
-            </button>
           </ul>
         </nav>
       )}

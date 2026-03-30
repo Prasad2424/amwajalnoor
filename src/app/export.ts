@@ -146,7 +146,7 @@ export interface Service {
 export const services: Service[] = [
     {
         title: "Mechanical",
-        image: "/services/mechanicalservice.png",
+        image: "/services/mechanicalservices.png",
         points: [
             "Heating, Ventilation & Air Conditioning (HVAC) System",
             "All type of Air Conditioning System (Centralized, Wall-Mounted, Split System, CC, Ducted)",
@@ -159,7 +159,7 @@ export const services: Service[] = [
     },
     {
         title: "Plumbing",
-        image: "/services/plumbingservice.png",
+        image: "/services/plumbingservices2.png",
         points: [
             "Design & Installation of plumbing, drainage and sanitary systems",
             "Pump & Tank Installation",
@@ -173,7 +173,7 @@ export const services: Service[] = [
     },
     {
         title: "Electrical",
-        image: "/services/electricalservice.png",
+        image: "/services/electricalservices.png",
         points: [
             "Electrical Engineering (Design & Product Selection)",
             "Installations of Electrical Panel Systems like MDBs,Panels, SMDBs, DBs / Capacitor Banks",
@@ -190,7 +190,7 @@ export const services: Service[] = [
 export const about = [
     {
       title: "Introduction to ANWAJ AL NOOR",
-      image: "/about.png",
+      image: "/images/aboutusbanner.png",
       para1:
         "ANWAJ AL NOOR was established in 2015 in Sharjah, United Arab Emirates. The company has grown into a trusted provider of MEP and civil contracting services, recognized for its professionalism, technical capability, and commitment to quality.",
       para2:

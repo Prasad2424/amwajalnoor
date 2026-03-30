@@ -29,8 +29,6 @@ const Person: React.FC<PersonCardProps> = ({
             priority
             className="object-fit transition-transform duration-500 group-hover:scale-110"
           />
-
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
         </div>
 
         <div className="px-6 py-5 text-center">

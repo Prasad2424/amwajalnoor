@@ -25,9 +25,7 @@ const PromiseCard: React.FC<PromiseCardProps> = ({
 
       {/* Image Reveal */}
       <div
-        className={`absolute inset-0 transition-all duration-700 ease-out ${
-          hovered ? "translate-y-0 opacity-100" : "translate-y-full opacity-0"
-        }`}
+        className="absolute inset-0 transition-all duration-700 ease-out "
       >
         <Image
           src={imageurl}

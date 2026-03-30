@@ -12,15 +12,15 @@ body {
 
 
 header{
-  z-index: 999 !important;
+  z-index: 200 !important;
 }
 
-.navbar li-p9{
+.navbar{
   z-index: 999 !important;
 }
 
 .homeCarousel{
-  z-index: 100 !important;
+  z-index: 100 ;
 }
 * {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -512,5 +512,5 @@ header{
 .animate-loop {
   animation: loop 20s linear infinite;
   display: flex;
-  width: 200%;
+  width: max-content ;
 }
