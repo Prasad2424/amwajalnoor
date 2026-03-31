@@ -189,10 +189,10 @@ export const services: Service[] = [
 
 export const about = [
     {
-      title: "Introduction to ANWAJ AL NOOR",
+      title: "Introduction to AMWAJ AL NOOR",
       image: "/images/aboutusbanner.png",
       para1:
-        "ANWAJ AL NOOR was established in 2015 in Sharjah, United Arab Emirates. The company has grown into a trusted provider of MEP and civil contracting services, recognized for its professionalism, technical capability, and commitment to quality.",
+        "AMWAJ AL NOOR was established in 2015 in Sharjah, United Arab Emirates. The company has grown into a trusted provider of MEP and civil contracting services, recognized for its professionalism, technical capability, and commitment to quality.",
       para2:
         "Our focus is on timely delivery, operational efficiency, and value-driven execution. At ANWAJ AL NOOR, we maintain strict quality control standards while keeping clients informed through structured progress updates, ensuring every project is completed on schedule and within budget.",
       para3:
