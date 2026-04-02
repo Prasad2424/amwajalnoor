@@ -72,34 +72,34 @@ const ContactPage = () => {
           <div className="bg-white p-8 rounded-2xl shadow-md">
             <h3 className="text-xl font-bold mb-2">📍 Office</h3>
             <p className="text-gray-600">
-              P.O BOX: 67411<br />
+            P.O BOX: 67411,Al Nabba,Sharjah -<br />
               Dubai, UAE
             </p>
           </div>
 
-          <div className="bg-white p-8 rounded-2xl shadow-md">
+          <div className="bg-white p-8 rounded-2xl shadow-md flex flex-col">
             <h3 className="text-xl font-bold mb-2">📞 Phone</h3>
             <a
               href="tel:+97165217424"
               className="text-gray-600 hover:text-black"
             >
-              +971 6 521 7424
+              +971 0557582999
+            </a>
+            <a
+              href="tel:+97165217424"
+              className="text-gray-600 hover:text-black"
+            >
+              +971 0562674449
             </a>
           </div>
 
           <div className="bg-white p-8 rounded-2xl shadow-md">
             <h3 className="text-xl font-bold mb-2">✉️ Email</h3>
             <a
-              href="mailto:info@wahatsiwa.in"
-              className="text-gray-600 hover:text-black block"
-            >
-              info@wahatsiwa.in
-            </a>
-            <a
               href="mailto:wahatliwantechllc@gmail.com"
               className="text-gray-600 hover:text-black block"
             >
-              wahatliwantechllc@gmail.com
+              amwajalnoor@gmail.com
             </a>
           </div>
 

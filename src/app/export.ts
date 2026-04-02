@@ -53,7 +53,7 @@ export const corevalues = [
       }
 ]
 
-export const groups=["/groups/group1.jpeg","/groups/group2.jpeg","/groups/group3.jpeg","/groups/group4.jpeg","/groups/group5.jpeg","/groups/group6.jpeg"]
+export const groups=["/groups/group1.jpeg","/groups/group2.jpeg","/groups/group3.jpeg","/groups/group4.jpeg","/groups/group5.png"]
 
 export const projects = [
     {
@@ -189,12 +189,12 @@ export const services: Service[] = [
 
 export const about = [
     {
-      title: "Introduction to ANWAJ AL NOOR",
+      title: "Introduction to AMWAJ AL NOOR",
       image: "/images/aboutusbanner.png",
       para1:
-        "ANWAJ AL NOOR was established in 2015 in Sharjah, United Arab Emirates. The company has grown into a trusted provider of MEP and civil contracting services, recognized for its professionalism, technical capability, and commitment to quality.",
+        "AMWAJ AL NOOR was established in 2015 in Sharjah, United Arab Emirates. The company has grown into a trusted provider of MEP and civil contracting services, recognized for its professionalism, technical capability, and commitment to quality.",
       para2:
-        "Our focus is on timely delivery, operational efficiency, and value-driven execution. At ANWAJ AL NOOR, we maintain strict quality control standards while keeping clients informed through structured progress updates, ensuring every project is completed on schedule and within budget.",
+        "Our focus is on timely delivery, operational efficiency, and value-driven execution. At AMWAJ AL NOOR, we maintain strict quality control standards while keeping clients informed through structured progress updates, ensuring every project is completed on schedule and within budget.",
       para3:
         "We are committed to delivering innovative, reliable, and world-class solutions through skilled professionals, proven processes, and modern systems. Our approach is built on long-term partnerships, transparency, and exceptional service at every stage of the project lifecycle."
     }

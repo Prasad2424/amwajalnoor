@@ -55,7 +55,18 @@ export const metadata: Metadata = {
     images: ["https://wahatliwan.com/images/og-banner.png"],
     creator: "@wahatliwan",
   },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+    other: [
+      { rel: "icon", url: "/favicon-32x32.png", sizes: "32x32" },
+      { rel: "icon", url: "/favicon-16x16.png", sizes: "16x16" },
+    ],
+  },
 };
+
+
 
 export const viewport = {
   themeColor: "#0f766e",
@@ -71,7 +82,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/favicon.ico" />
         <link rel="manifest" href="/site.webmanifest" />
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>

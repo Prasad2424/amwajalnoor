@@ -67,15 +67,15 @@ const Footer = () => {
                 <div className="space-y-2">
                   <h4 className="text-[11px] text-yellow-200 font-black uppercase tracking-widest">Phone Support</h4>
                   <div className="flex flex-col gap-1">
-                    <a href="tel:+97165217424" className="text-[13px] font-bold text-white hover:text-yellow-200 transition-colors">+971 6 521 7424</a>
-                    <a href="tel:+971500000000" className="text-[13px] font-bold text-white hover:text-yellow-200 transition-colors">+971 50 000 0000</a>
+                    <a href="tel:+97165217424" className="text-[13px] font-bold text-white hover:text-yellow-200 transition-colors">+971  0557582999</a>
+                    <a href="tel:+97165217424" className="text-[13px] font-bold text-white hover:text-yellow-200 transition-colors">+971 0509674441</a>
+                    <a href="tel:+971500000000" className="text-[13px] font-bold text-white hover:text-yellow-200 transition-colors">+971 0562674449</a>
                   </div>
                 </div>
 
                 <div className="space-y-2">
                   <h4 className="text-[11px] text-yellow-200 font-black uppercase tracking-widest">Email Inquiry</h4>
                   <div className="flex flex-col gap-1">
-                    <a href="mailto:info@amwajalnoor.in" className="text-[13px] font-bold text-white/90 hover:text-yellow-200 truncate transition-colors">info@amwajalnoor.in</a>
                     <a href="mailto:amwajalnoor@gmail.com" className="text-[13px] font-bold text-white/90 hover:text-yellow-200 truncate transition-colors">amwajalnoor@gmail.com</a>
                   </div>
                 </div>
@@ -83,7 +83,7 @@ const Footer = () => {
 
               <div className="mt-6 pt-4 border-t border-white/20 flex items-center gap-3">
                 <i className='bx bxs-map-pin text-yellow-300 text-lg animate-bounce'></i>
-                <p className="text-[11px] text-white font-black tracking-tight uppercase">P.O BOX: 67411, Dubai - UAE</p>
+                <p className="text-[11px] text-white font-black tracking-tight uppercase">P.O BOX: 67411,Al Nabba,Sharjah - Dubai - UAE</p>
               </div>
             </div>
           </div>
