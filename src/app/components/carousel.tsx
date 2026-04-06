@@ -46,7 +46,7 @@ const HomeCarousel = ({ onReadMoreClick }: HomeCarouselProps) => {
             {/* Buttons */}
             <div className="mt-2 xl:mt-6 lg:mt-6 md:mt-4 sm:mt-2 h-8 xl:h-12 flex gap-6 items-center justify-start">
 
-              <Link href={"/ongoing-projectsf"} className="h-full bg-orange-500 hover:bg-orange-600 px-3 xl:px-6 lg:px-6 md:px-6 sm:px-6 py-2 rounded-lg font-semibold shadow-lg  hover:scale-105 transition-all duration-300 text-[10px] xl:text-[18px] lg:text-[18px] md:text-[14px] sm:text-[12px]">
+              <Link href={"/ongoing-projects"} className="h-full bg-orange-500 hover:bg-orange-600 px-3 xl:px-6 lg:px-6 md:px-6 sm:px-6 py-2 rounded-lg font-semibold shadow-lg  hover:scale-105 transition-all duration-300 text-[10px] xl:text-[18px] lg:text-[18px] md:text-[14px] sm:text-[12px]">
                 Our Projects
               </Link >
 
