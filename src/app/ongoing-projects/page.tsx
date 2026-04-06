@@ -2,9 +2,11 @@
 
 import React, { useState, useMemo } from 'react';
 import { ongoingProjects } from "../export";
-import Projectcard from '../components/projectcard';
+import Projectcard from '../components/ongoingprojectcard';import OngoingProjectcard from '../components/ongoingprojectcard';
+44
 
 const OngoingProjectsBoard: React.FC = () => {
+
     const [activeCompany, setActiveCompany] = useState<number | null>(0);
 
     const totalProjects = useMemo(() => {
@@ -56,17 +58,15 @@ const OngoingProjectsBoard: React.FC = () => {
                                     <h3 className="text-lg font-semibold">
                                         {group.company}
                                     </h3>
-                                    {/* <p className="text-sm text-gray-400">
-                                        {group.projects.length} active projects
-                                    </p> */}
                                 </div>
                             </button>
                                 <div className="px-6 pb-6 space-y-4">
-                                    <Projectcard
+                                    <OngoingProjectcard
                                         index={index}
                                         companyName={group.company}
                                         projects={group.projects}
                                         logo={group.logo}
+                                        folderName={group.folder}
                                     />
                                 </div>
                         </div>

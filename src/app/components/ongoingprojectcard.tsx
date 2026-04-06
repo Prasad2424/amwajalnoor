@@ -9,18 +9,19 @@ type Project = {
 interface ProjectcardProps {
     index: number;
     logo: string;
+    folderName: string;
     companyName: string;
     projects: Project[]
 }
 
-const Projectcard: React.FC<ProjectcardProps> = ({ index, companyName, projects, logo }) => {
+const OngoingProjectcard: React.FC<ProjectcardProps> = ({ index, companyName, projects, logo,folderName }) => {
     return (
         <section className='w-full h-max  flex items-center justify-center  flex-wrap'>
             <div className='w-[90%] xl:w-[100%] lg:w-[90%] md:w-[95%] sm:w-[95%] h-[90%]  flex flex-col  rounded-lg shadow-lg  flex-wrap py-6'>
                 <div key={index} className="w-full h-full flex flex-col space-y-2 " >
                     <div className='w-full h-[100px]  flex items-center justify-center'>
                         <div className='w-[40%] xl:w-[30%] lg:w-[28%] md:w-[25%] sm:w-[25%] h-[50%] xl:h-[80%] lg:h-[70%] md:h-[60%] sm:h-[60%] relative max-h-[80%]'>
-                            <Image src={logo} alt="companylogo" fill className='object-fill' />
+                            <Image src={`/ongoing-projects/${folderName}/${logo}`} alt="companylogo" fill className='object-fill' />
                         </div>
                         <div className='w-[57%] h-full flex items-center justify-center'>
                             <h3 className="text-[14px] xl:text-[32px] lg:text-[25px] md:text-[22px] sm:text-[18px] font-bold text-center text-black ">
@@ -38,7 +39,7 @@ const Projectcard: React.FC<ProjectcardProps> = ({ index, companyName, projects,
                                 <div className="w-full h-[80%] flex items-center justify-center ">
                                     <div className="relative w-full h-full max-h-[200px] xl:max-h-[240px] lg:max-h-[220px] md:max-h-[200px]">
                                         <Image
-                                            src={project.image}
+                                            src={`/ongoing-projects/${folderName}/${project.image}`}
                                             alt={project.title}
                                             fill
                                             className="rounded-lg object-fill"
@@ -61,4 +62,4 @@ const Projectcard: React.FC<ProjectcardProps> = ({ index, companyName, projects,
     )
 }
 
-export default Projectcard
+export default OngoingProjectcard

@@ -65,12 +65,12 @@ const Header: React.FC = () => {
   
 
   return (
-    <header className="w-full h-[120px] xl:h-[90px] lg:h-[90px] md:h-[90px] sm:h-[90px]  flex justify-between items-center bg-transparent static left-0 top-0  text-white z-50">
+    <header className={`w-full h-[120px] xl:h-[90px] lg:h-[90px] md:h-[90px] sm:h-[90px]  flex justify-between items-center bg-transparent  left-0 top-0  text-white z-50 ${pathname == "/" ? "fixed": "static" }`}>
       <div className="w-[80%] xl:w-[35%] lg:w-[40%] md:w-[35%] sm:w-[32%] h-[90%] flex items-center justify-start ">
         <div className="w-[40%] h-full xl:w-[35%] lg:w-[30%] md:w-[30%] sm:w-[30%]  slide-right">
           <Link href="/" className="w-full h-[100%]  flex items-center justify-center mt-2 lg:ml-2 md:ml-1 md:mt-0 sm:ml-1 ">
             <div className="relative w-full h-full xl:w-[90%] xl:h-full lg:w-[100%] lg:h-full md:w-[100%] md:h-[60%] sm:w-full sm:h-[50%]">
-              <Image src="/images/companyLogo3.png" alt="Company Logo" fill className="object-fill" />
+              <Image src="/companylogopng.png" alt="Company Logo" fill className="object-contain" />
             </div>
           </Link>
         </div>
@@ -108,7 +108,8 @@ const Header: React.FC = () => {
             </div>
           )}
 
-          <ul className="navbar w-full h-full flex justify-end  items-center  space-x-0 xl:space-x-16 lg:space-x-8 md:space-x-4 sm:space-x-3 text-black font-semibold xl:text-[13px] lg:text-[12px] md:text-[10px] sm:text-[11px]">
+          <ul className="navbar w-full h-full flex justify-end  items-center  space-x-0 xl:space-x-16 lg:space-x-8 md:space-x-4 sm:space-x-3 text-black font-semibold xl:text-[13px] lg:text-[12px] md:text-[10px] sm:text-[11px] backdrop-blur-xl bg-white/10 
+border border-white/20 rounded-2xl px-8 py-3 shadow-lg">
             <li
               className={`h-full flex justify-center items-center  ${pathname === "/"
                   ? "text-orange-300 underline underline-offset-[12px]"

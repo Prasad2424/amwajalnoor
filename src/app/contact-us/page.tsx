@@ -7,7 +7,7 @@ const ContactPage = () => {
     <main className="bg-white">
 
       {/* HERO SECTION */}
-      <section className="bg-gray-900 text-white py-24 px-4 text-center">
+      <section className="bg-gray-600 text-white py-24 px-4 text-center">
         <h1 className="text-5xl font-extrabold mb-4">
           Contact Our Team
         </h1>

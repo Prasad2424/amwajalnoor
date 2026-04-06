@@ -3,7 +3,8 @@
 import React, { useMemo, useRef, useState } from 'react';
 import Image from 'next/image';
 import { completedProjects} from "../export";
-import Projectcard from '../components/projectcard';
+import Projectcard from '../components/ongoingprojectcard';
+import CompletedProjectcard from '../components/completedprojectcard';
 
 
 const CompleteProjects: React.FC = () => {
@@ -62,11 +63,12 @@ const CompleteProjects: React.FC = () => {
 
                             {/* PROJECT LIST */}
                                 <div className="flex px-2 pb-12 space-y-4">
-                                    <Projectcard
+                                    <CompletedProjectcard
                                         index={index}
                                         companyName={group.company}
                                         projects={group.projects}
                                         logo={group.logo}
+                                        folderName={group.folder}
                                     />
                                 </div>
                         </div>
