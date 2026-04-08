@@ -341,7 +341,7 @@ export const ongoingProjects: CompanyProjects[] = [
     },
     {
         company: "CARAWAN ELECTRICAL & MECHANICAL WORKS LLC ",
-        folder : "CARAWAN ELECTRICAL & MECHANICAL WORKS LLC",
+        folder : "CARAWAN",
         logo:"logo.png",
         projects: [
             { image: "img1.png", title: "EXPO VALLEY VILLAS & TOWNHOUSES ." },
@@ -350,7 +350,7 @@ export const ongoingProjects: CompanyProjects[] = [
     },
     {
         company: "BRIGHT ACCORD GENERAL CONTRACTING L.L.C",
-        folder : "BRIGHT ACCORD GENERAL CONTRACTING L.L.C",
+        folder : "BRIGHT-ACCORD-GENERAL-CONTRACTING-L.L.C",
         logo:"logo.png",
         projects: [
             { image: "img1.png", title: "P101 MLAD-2 - MANARAT LIVING ALDAR 2" },
@@ -367,7 +367,7 @@ export const ongoingProjects: CompanyProjects[] = [
     },
     {
         company: "AFAQ ENGINEERING LLC",
-        folder : "AFAQ ENGINEERING LLC",
+        folder : "AFAQ-ENGINEERING-L.L.C",
         logo:"logo.png",
         projects: [
             { image: "img1.png", title: "R1081 Wasl Green Park – Rasal khor            " },
@@ -375,7 +375,7 @@ export const ongoingProjects: CompanyProjects[] = [
     },
     {
         company: "PROFESSIONAL ENGINEERS ELECTRO MECHANICAL CONT. CO. LLC",
-        folder : "PROFESSIONAL ENGINEERS ELECTRO MECHANICAL CONT. CO. LLC",
+        folder : "PROFESSIONAL-ENGINEERS",
         logo:"logo.png",
         projects: [
             { image: "img1.png", title: "Proposed 3 Residential buildings (G+2P floors" },
