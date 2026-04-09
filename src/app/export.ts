@@ -302,14 +302,14 @@ export const ongoingProjects: CompanyProjects[] = [
         folder : "VERGER-DELPORTE-U.A.E-LTD",
         logo:"logo.png",
         projects: [
-            { image: "img1.png", title: "Sheikh Zayed Cricket Stadium" },
-            { image: "img2.png", title: "Palm Jumeirah Villa Project" },
-            { image: "img3.png", title: "Sheikh Zayed Cricket Stadium" },
-            { image: "img4.png", title: "Palm Jumeirah Villa Project" },
-            { image: "img5.png", title: "Sheikh Zayed Cricket Stadium" },
-            { image: "img6.png", title: "Palm Jumeirah Villa Project" },
-            { image: "img7.png", title: "Sheikh Zayed Cricket Stadium" },
-            { image: "img8.png", title: "Palm Jumeirah Villa Project" },
+            { image: "img1.png", title: "Rashid Yachts & Marina Development Ocean Point" },
+            { image: "img2.png", title: "Rashid Yachts & Marina Development Clear Point" },
+            { image: "img3.png", title: "Khalifa University Student Accommodation" },
+            { image: "img4.png", title: "Damac Riverside" },
+            { image: "img5.png", title: "Reeman Phase 2 Project" },
+            { image: "img6.png", title: "Damac Lagoons - Malta Cluster – Phase 1 & 2" },
+            { image: "img7.png", title: "Monte Carlo – DAMAC Lagoos Master Devlopment" },
+            { image: "img8.png", title: "Mykonos – Damac Lagoos Master Devlopment" },
         ],
     },
     {
@@ -317,8 +317,8 @@ export const ongoingProjects: CompanyProjects[] = [
         folder : "EMT-ELECTROMECHNICAL-WORKS-L.L.C",
         logo:"logo.png",
         projects: [
-            { image: "img1.png", title: "2B+G+3 Floors+RF+TF On Plat No.2140909,Al Garhoud. Dubai, UAE." },
-            { image: "img2.png", title: "Jewel of the Creek, Dubai, UAE." },
+            { image: "img1.png", title: "ICONIC TOWER" },
+            { image: "img2.png", title: "SOUTH BAY RESIDENTIAL DISTRICT" },
         ],
     },
     {
@@ -326,9 +326,9 @@ export const ongoingProjects: CompanyProjects[] = [
         folder : "GRANADA-EUROPE-CONSTRUCTION-LLC",
         logo:"logo.png",
         projects: [
-            { image: "img1.png", title: "AL MARYAH VISTA 1&2" },
-            { image: "img2.png", title: "AL MARYAH VISTA 1&2" },
-            { image: "img3.png", title: "AL MARYAH VISTA 1&2" },
+            { image: "img1.png", title: "Binghatti Hills" },
+            { image: "img2.png", title: "Mercedes-Benz" },
+            { image: "img3.png", title: "Ghost by Binghatti" },
         ],
     },
     {
@@ -336,7 +336,7 @@ export const ongoingProjects: CompanyProjects[] = [
         folder : "MAG-INTERNATIONAL-ELECTROMECHANICAL-WORK-L.L.C",
         logo:"logo.png",
         projects: [
-            { image: "img1.png", title: "AL Wasal-Qusaia." },
+            { image: "img1.png", title: "MAG 330" },
         ],
     },
     {
@@ -344,7 +344,7 @@ export const ongoingProjects: CompanyProjects[] = [
         folder : "CARAWAN",
         logo:"logo.png",
         projects: [
-            { image: "img1.png", title: "EXPO VALLEY VILLAS & TOWNHOUSES ." },
+            { image: "img1.png", title: "EXPO VALLEY VILLAS & TOWNHOUSES" },
             { image: "img2.png", title: "Mudon Central Park Phase 1,2 3 & 4" },
         ],
     },
@@ -361,8 +361,8 @@ export const ongoingProjects: CompanyProjects[] = [
         folder : "SPECTRUM-CUBE",
         logo:"logo.png",
         projects: [
-            { image: "img1.png", title: "Sharjah Oasis Mall" },
-            { image: "img2.png", title: "Maryam Island Development" },
+            { image: "img1.png", title: "Murjan Al Saadiyat Project , UAE." },
+            { image: "img2.png", title: "Central Business District Phase-1" },
         ],
     },
     {
@@ -370,7 +370,7 @@ export const ongoingProjects: CompanyProjects[] = [
         folder : "AFAQ-ENGINEERING-L.L.C",
         logo:"logo.png",
         projects: [
-            { image: "img1.png", title: "R1081 Wasl Green Park – Rasal khor            " },
+            { image: "img1.png", title: "R1081 Wasl Green Park – Rasal khor" },
         ],
     },
     {
@@ -378,11 +378,10 @@ export const ongoingProjects: CompanyProjects[] = [
         folder : "PROFESSIONAL-ENGINEERS",
         logo:"logo.png",
         projects: [
-            { image: "img1.png", title: "Proposed 3 Residential buildings (G+2P floors" },
+            { image: "img1.png", title: "Proposed 3 Residential buildings (G+2P floors)" },
         ],
     },
 
 ];
-
 export const clients=["/clients/client1.jpeg","/clients/client2.png","/clients/client3.png","/clients/client4.png","/clients/client5.jpeg","/clients/client6.png","/clients/client7.png","/clients/client8.png","/clients/client9.png","/clients/client10.png","/clients/client11.png","/clients/client12.jpeg","/clients/client13.png","/clients/client14.jpeg","/clients/client15.jpeg","/clients/client16.png","/clients/client17.png","/clients/client18.png","/clients/client19.png"]
                                                                                                                              
