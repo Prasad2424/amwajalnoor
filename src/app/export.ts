@@ -391,7 +391,7 @@ export const ongoingProjects: CompanyProjects[] = [
 
         {
         company: "BK GULF LLC"
-        folder : "ongoing projects",
+        folder : "ongoing-projects",
         logo:"bl1.png",
         projects: [
             { image: "b1.png", title: "Khazna Data Center. " },
