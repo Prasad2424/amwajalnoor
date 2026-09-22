@@ -387,6 +387,29 @@ export const ongoingProjects: CompanyProjects[] = [
         ],
     },
 
+//  newly add content
+
+        {
+        company: "BK GULF LLC"
+        folder : "AFAQ-ENGINEERING-L.L.C",
+        logo:"logo.png",
+        projects: [
+            { image: "b1.png", title: "Khazna Data Center. " },
+             { image: "b2.png", title: "AI-optimized facility project (QAJ01) in Ajman " },
+        ],
+    },
+    // {
+    //     company: "PROFESSIONAL ENGINEERS ELECTRO MECHANICAL CONT. CO. LLC",
+    //     folder : "PROFESSIONAL-ENGINEERS",
+    //     logo:"logo.png",
+    //     projects: [
+    //         { image: "img1.png", title: "Proposed 3 Residential buildings (G+2P floors)" },
+    //     ],
+    // },
+
+
+
+    
 ];
 export const clients=["/clients/client1.jpeg","/clients/client2.png","/clients/client3.png","/clients/client4.png","/clients/client5.jpeg","/clients/client6.png","/clients/client7.png","/clients/client8.png","/clients/client9.png","/clients/client10.png","/clients/client11.png","/clients/client12.jpeg","/clients/client13.png","/clients/client14.jpeg","/clients/client15.jpeg","/clients/client16.png","/clients/client17.png","/clients/client18.png","/clients/client19.png"]
                                                                                                                              
