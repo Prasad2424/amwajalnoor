@@ -346,8 +346,8 @@ export const ongoingProjects: CompanyProjects[] = [
         projects: [
             { image: "img1.png", title: "EXPO VALLEY VILLAS & TOWNHOUSES" },
             { image: "img2.png", title: "Mudon Central Park Phase 1,2 3 & 4" },
-            { image: "img3.png", title: "Mudon Central Park Phase 1,2 3 & 4" },
-            { image: "img4.png", title: "Mudon Central Park Phase 1,2 3 & 4" },
+            { image: "img3.png", title: "Athlon by Aldar Package 1, 2 & 3 (1,492 Villas)" },
+            { image: "img4.jpeg", title: "The Acres Phase 1 & 2 (351 Villas)" },
             
             
         ],
