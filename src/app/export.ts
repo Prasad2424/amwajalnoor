@@ -367,6 +367,7 @@ export const ongoingProjects: CompanyProjects[] = [
         projects: [
             { image: "img1.png", title: "Murjan Al Saadiyat Project , UAE." },
             { image: "img2.png", title: "Central Business District Phase-1" },
+            { image: "sp3.jpeg", title: "AIRCRAFT HANGAR 1067 @ UUDS DWC AIRPORT PLOT NO. AC-F-15" },
         ],
     },
     {
