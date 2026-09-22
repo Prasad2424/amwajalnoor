@@ -346,6 +346,10 @@ export const ongoingProjects: CompanyProjects[] = [
         projects: [
             { image: "img1.png", title: "EXPO VALLEY VILLAS & TOWNHOUSES" },
             { image: "img2.png", title: "Mudon Central Park Phase 1,2 3 & 4" },
+            { image: "img3.png", title: "Mudon Central Park Phase 1,2 3 & 4" },
+            { image: "img4.png", title: "Mudon Central Park Phase 1,2 3 & 4" },
+            
+            
         ],
     },
     {
