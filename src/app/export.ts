@@ -391,9 +391,8 @@ export const ongoingProjects: CompanyProjects[] = [
 
      {
         company: "VYNAR MEP EXPERTISE CONTRACTING",
-        folder : "ongoing-projects",
+        folder : "CARAWAN",
         logo:"vl1.jpeg",
-         title:"vynar",
         projects: [
             { image: "vmg.jpeg", title: "Downtown" },
         ],
