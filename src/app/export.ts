@@ -388,17 +388,17 @@ export const ongoingProjects: CompanyProjects[] = [
     },
 
 // new projects
-    
 
-  {
-        company: "VYNAR MEP EXPERTISE CONTRACTING",
-        logo:"/ongoing-projects/vl1.jpeg",
+     {
+        company: "a",
+        folder : "b",
+        logo:"logo.png",
         projects: [
-           
-            { image: "/ongoing-projects/vmg.jpeg", title: "Downtown" },
-           
+            { image: "img1.png", title: "Proposed 3 Residential buildings (G+2P floors)" },
         ],
     },
+
+
 
 
 
