@@ -399,6 +399,18 @@ export const ongoingProjects: CompanyProjects[] = [
     },
 
 
+        {
+        company: "BK GULF LLC",
+        folder : "AFAQ-ENGINEERING-L.L.C",
+        logo:"bl1.png",
+        projects: [
+            { image: "b1.png", title: "Khazna Data Center. " },
+            { image: "b2.png", title: "AI-optimized facility project (QAJ01) in Ajman " },
+        ],
+    },
+
+
+
 
 
 
